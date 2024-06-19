@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'pixel_en';
+    src: url('Font_en.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    font-family: "pixel_en", "pixel_fa", "Consolas", "math", sans-serif;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_404 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 15px 0;
+    animation: textAnimation 2s ease-in-out infinite alternate;
+}
+
+.main_404 h1 {
+    margin: 0 10px;
+    font-size: 7em;
+}
+
+@keyframes textAnimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.about {
+    letter-spacing: 3px;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.return {
+    letter-spacing: 2px;
+    margin-top: 10px; /* Adjusted for better spacing */
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+    background: #000000;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.return:hover {
+    background: #fff;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .main_404 h1 {
+        font-size: 5em;
+    }
+
+    .about {
+        font-size: 0.8em;
+    }
+
+    .return {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 300px) {
+    .main_404 h1 {
+        font-size: 4em;
+    }
+
+    .about {
+        font-size: 0.6em;
+    }
+
+    .return {
+        font-size: 0.7em;
+    }
+}
