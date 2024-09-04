@@ -1,7 +1,8 @@
 > [!NOTE]
 > This website has been modified from its original version. Previous modifications are indicated in accordance with the applicable [Creative Commons license](https://creativecommons.org/licenses/by/3.0/).
 
-Dimension by HTML5 UP html5up.net | @ajlkn
+Dimension by HTML5 UP
+html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 Forty by HTML5 UP
