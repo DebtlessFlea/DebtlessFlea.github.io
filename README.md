@@ -1,32 +1,25 @@
 > [!NOTE]
 > This website has been modified from its original version. Previous modifications are indicated in accordance with the applicable [Creative Commons license](https://creativecommons.org/licenses/by/3.0/).
 
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+## Credits
 
-Forty by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+### <ins>Dimension</ins> by [HTML5 UP](https://html5up.net) [html5up.net | @ajlkn] 
+Free for personal and commercial use under the CCA 3.0 license [html5up.net/license](https://html5up.net/license)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### <ins>Forty</ins> by [HTML5 UP](https://html5up.net) [html5up.net | @ajlkn]
+Free for personal and commercial use under the CCA 3.0 license [html5up.net/license](https://html5up.net/license)
 
-(* = not included)
+### Special thanks to AJ [aj@lkn.io | @ajlkn]
 
-AJ
-aj@lkn.io | @ajlkn
+## Other
 
+### <ins>Images</ins> by [Unsplash](https://unsplash.com)
+Courtesy of [Unsplash](https://unsplash.com), a collection of high-quality CC0 (public domain) images.
 
-Credits:
+### <ins>Icons</ins>: [Font Awesome](https://fontawesome.io)
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### <ins>jQuery</ins>: [jquery.com](https://jquery.com)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+### <ins>Scrollex</ins>: [https://github.com/ajlkn/jquery.scrollex](https://github.com/ajlkn/jquery.scrollex)
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### <ins>Responsive Tools</ins>: [https://github.com/ajlkn/responsive-tools](https://github.com/ajlkn/responsive-tools)
