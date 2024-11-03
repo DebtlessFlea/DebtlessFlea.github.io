@@ -3,15 +3,13 @@
 
 ## Credits
 
+### Special thanks to AJ [aj@lkn.io | @ajlkn]
+
 ### <ins>Dimension</ins> by [HTML5 UP](https://html5up.net) [html5up.net | @ajlkn] 
 Free for personal and commercial use under the CCA 3.0 license [html5up.net/license](https://html5up.net/license)
 
 ### <ins>Forty</ins> by [HTML5 UP](https://html5up.net) [html5up.net | @ajlkn]
 Free for personal and commercial use under the CCA 3.0 license [html5up.net/license](https://html5up.net/license)
-
-### Special thanks to AJ [aj@lkn.io | @ajlkn]
-
-## Other
 
 ### <ins>Images</ins> by [Unsplash](https://unsplash.com)
 Courtesy of [Unsplash](https://unsplash.com), a collection of high-quality CC0 (public domain) images.
