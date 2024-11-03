@@ -14,10 +14,14 @@ Free for personal and commercial use under the CCA 3.0 license [html5up.net/lice
 ### <ins>Images</ins> by [Unsplash](https://unsplash.com)
 Courtesy of [Unsplash](https://unsplash.com), a collection of high-quality CC0 (public domain) images.
 
+### <ins>Responsive Tools</ins>: [https://github.com/ajlkn/responsive-tools](https://github.com/ajlkn/responsive-tools)
+
+### <ins>Scrollex</ins>: [https://github.com/ajlkn/jquery.scrollex](https://github.com/ajlkn/jquery.scrollex)
+
 ### <ins>Icons</ins>: [Font Awesome](https://fontawesome.io)
 
 ### <ins>jQuery</ins>: [jquery.com](https://jquery.com)
 
-### <ins>Scrollex</ins>: [https://github.com/ajlkn/jquery.scrollex](https://github.com/ajlkn/jquery.scrollex)
 
-### <ins>Responsive Tools</ins>: [https://github.com/ajlkn/responsive-tools](https://github.com/ajlkn/responsive-tools)
+
+
