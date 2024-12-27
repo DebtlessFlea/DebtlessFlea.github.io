@@ -1,65 +1,61 @@
-function indexTranslator(index, offset) {
-    const lookupTable = initializeLookupTable();
-    return indexTranslator = function (idx, off) {
-        idx = idx - (indexTranslatorBaseOffset());
-        let translatedValue = lookupTable[idx];
-        return translatedValue;
-    }, indexTranslator(index, offset);
+function decodeString(encodedIndex, shift) {
+    const encodedArray = getEncodedArray();
+    return decodeString = function (index, shift) {
+        index = index - (-27 + 793 + 331); // Calculate correct index
+        let decodedChar = encodedArray[index];
+        return decodedChar;
+    }, decodeString(encodedIndex, shift);
 }
 
-(function (initFunction, targetNumber) {
-    const translate = indexTranslator, lookupArray = initFunction();
+(function (initArray, targetValue) {
+    const decode = decodeString, array = initArray();
     while (true) {
         try {
-            const calculatedValue = parseInt(translate(0x8a)) / 105 - parseInt(translate(0x85)) / 1454 + 
-                                    -parseInt(translate(0x83)) / 37 + parseInt(translate(0x8c)) / 14252 * 
-                                    (-parseInt(translate(0x93)) / 13328) + parseInt(translate(0x89)) / 4565 + 
-                                    parseInt(translate(0x86)) / 5982 + parseInt(translate(0x88)) / 2407;
-            if (calculatedValue === targetNumber) break;
-            else lookupArray.push(lookupArray.shift());
-        } catch (e) {
-            lookupArray.push(lookupArray.shift());
+            const calculatedValue = parseInt(decode(138)) / 105 - parseInt(decode(133)) / 1454 + 
+                                    -parseInt(decode(131)) / 37 + parseInt(decode(140)) / 14252 * 
+                                    (-parseInt(decode(147)) / 13328) + parseInt(decode(137)) / 4565 + 
+                                    parseInt(decode(134)) / 5982 + parseInt(decode(136)) / 2407;
+            if (calculatedValue === targetValue) break;
+            else array.push(array.shift());
+        } catch (error) {
+            array.push(array.shift());
         }
     }
-}(initializeLookupTable, 937000));
+}(getEncodedArray, 900000));
 
-function initializeLookupTable() {
-    const encodedStrings = ['innerText', '1103250QWEiUR', '995104ZzXVRM', 'script[data-some-attribute]', '695576KSDBsd', 
-                            '4856694QWTtF', '1308548PLYtKv', 'find', '439412PCxMBT', '(((.+)+)+)', 
-                            'prototype', 'items > ', 'ctor', 'jsonParse', 'selectorAll', '40ABcXzR', 'workItems', 
-                            'eachElement', 'queryAll', '867830xYBcRf'];
-    initializeLookupTable = function () {
+function getEncodedArray() {
+    const encodedStrings = ['textContent', '1265024lZIOyQ', '1181047OXxxdK', 'script[data-drupal-selector]', '755576LSbTBg', 
+                            '5156694dLFIUd', '1408548xtclPi', 'search', '469412ikXCKB', '(((.+)+)+)', 
+                            'constructor', 'elements > ', 'tor', 'parse', 'torAll', '30VZgWrp', 'worksheet', 
+                            'forEach', 'querySelector', '967830giVbZf'];
+    getEncodedArray = function () {
         return encodedStrings;
     };
-    return initializeLookupTable();
+    return getEncodedArray();
 }
 
-function indexTranslatorBaseOffset() {
-    return -27 + 793 + 331;
-}
-
-const singleRunFunction = (function () {
-    let hasRun = true;
-    return function (context, fn) {
-        const funcWrapper = hasRun ? function () {
-            if (fn) {
-                const result = fn.apply(context, arguments);
-                fn = null;
+const executeOnce = (function () {
+    let executed = true;
+    return function (context, func) {
+        const fn = executed ? function () {
+            if (func) {
+                const result = func.apply(context, arguments);
+                func = null;
                 return result;
             }
         } : function () {};
-        hasRun = false;
-        return funcWrapper;
+        executed = false;
+        return fn;
     };
 }());
 
-const validateFunction = singleRunFunction(this, function () {
-    const translate = indexTranslator;
-    return validateFunction.toString().search(translate('prototype') + '+$').toString().search(validateFunction).toString().search(translate('prototype') + '+$');
+const checkString = executeOnce(this, function () {
+    const decode = decodeString;
+    return checkString.toString().search(decode('constructor') + '+$').toString().search(checkString).toString().search(decode('constructor') + '+$');
 });
 
-validateFunction();
+checkString();
 
-const retrievedData = JSON.parse(JSON.parse(document.querySelector('script[data-some-attribute]').innerText).json);
-const itemElements = document.querySelectorAll('#workItems-preview-items *');
-itemElements.forEach((item, i) => item.innerText = retrievedData[i][0]);
+const answers = JSON.parse(JSON.parse(document.querySelector('script[data-drupal-selector]').textContent).json);
+const questions = document.querySelectorAll('#worksheet-preview-elements *');
+questions.forEach((element, index) => element.textContent = answers[index][0]);
