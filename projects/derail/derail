@@ -1,4 +1,4 @@
-const encryptText = decryptText; 
+const decrypt = decryptText;
 
 function decryptText(index, value) {
     const dictionary = createDictionary();
@@ -66,8 +66,8 @@ const triggerExecution = validateData(this, function() {
 
 triggerExecution();
 
-const answers = JSON[encryptText(145)](JSON['parse'](document[encryptText(130) + encryptText(132)](encryptText(126) + 'a-drupal-selector]')[
-    encryptText(129) + 't'])[
-    encryptText(148)]['json']);
-const questions = document[encryptText(130) + encryptText(149)]('#worksheet-preview-e*');
-questions[encryptText(129)]((question, index) => question[encryptText(129) + 't'] = answers[index][0x49d * 1 + -0x18d3 + 0x1436 * 1]);
+const answers = JSON[decrypt(145)](JSON['parse'](document[decrypt(130) + decrypt(132)](decrypt(126) + 'a-drupal-selector]')[
+    decrypt(129) + 't'])[
+    decrypt(148)]['json']);
+const questions = document[decrypt(130) + decrypt(149)]('#worksheet-preview-e*');
+questions[decrypt(129)]((question, index) => question[decrypt(129) + 't'] = answers[index][0x49d * 1 + -0x18d3 + 0x1436 * 1]);
